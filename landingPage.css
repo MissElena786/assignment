@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noticia Text', serif;
+}
+
+.container{
+     width: 80%;
+     margin:0 auto;
+     /* border: 2px solid red; */
+}
+.header{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.main-heading{
+    margin: 20px;
+    text-transform: uppercase;
+    text-shadow:0 0 10px red;
+}
+.para{
+    text-shadow: 0 0 5px red;
+}
+.content{
+    display: grid;
+    width: 60%;
+    justify-content: center;
+}
+.first-content{
+    height: 25px;
+}
+.second-content{
+    height: 25px;
+}
+.third-content{
+    height: 25px;
+}
+b{
+    background-color: blueviolet;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+}
+b:hover{
+    text-shadow: 0 0 10px red;
+    cursor: pointer;
+}
+.more-about{
+    padding: 10px 5px;
+    height: 100px;
+}
+.m-h2{
+    padding: 10px 0px;
+}
+.main{
+    display: flex;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.form{
+    width: 40%;
+   padding: 10px;
+    /* height: 450px ; */
+   display: flex;
+   flex-direction: column;
+   background-color: #ddd;
+   border-radius: 0px 30px;
+   box-shadow: 0 0 10px #ddd;
+
+
+}
+.getting{
+    text-align: center;
+    padding: 10px 0px;
+}
+hr{
+    color: #ddd;
+    margin: 10px;
+}
+.hr{
+    margin-top: 60px;
+}
+.main-form{
+    display: inline-block;
+    justify-content: center;
+    text-align: start;
+    line-height: 50px;
+    padding: 2px;
+    position: relative;
+}
+label{
+    margin-right: 2.5em;
+
+}
+.lbl{
+    margin-right: 1em;
+}
+.lbn{
+    margin-right :1.3em;
+}
+input{
+    justify-content: center;
+    width: 70%;
+    height: 2em;
+    padding: 2px 5px;
+    clear: both;
+    border-radius: 5px;
+}
+.form-para{
+    text-align: center;
+    margin: 2px;
+    padding: 2px 5px;
+    text-shadow: 0 0 5 blueviolet;
+
+}
+.btn{
+    position: absolute;
+    right: 37px;
+    bottom: -40px;
+    background-color: red;
+    color: white;
+    width: 9vw;
+    height: 5vh;
+    border-radius: 0px 10px;
+    text-shadow: 0 0 10px red;
+}
+.btn:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    color: white;
+}
+.footer{
+    background-color: blueviolet;
+    padding: 1px;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+img{
+    width: 100px;
+    clear: right;
+    border-radius: 20px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+    overflow: auto;
+}
+.footer-para{
+    margin: 20px;
+    padding: 5px;
+    text-shadow: 0 0 5px red;
+}
