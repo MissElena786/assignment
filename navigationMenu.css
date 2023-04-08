@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    scroll-behavior: smooth;
+}
+html body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    max-width: 100%;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/138728.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    background-color: rgba(17, 84, 142, 0.774);
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+.bi-list{
+    display: none;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#navbar ul li{
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+
+}
+.menu{
+    overflow: hidden;
+}
+#navbar li a{
+    margin: 1rem;
+}
+.logo{
+    width: 8rem;
+    border-radius: 50%;
+}
+input{
+    height: 2rem;
+    border-radius: 10px;
+    width: 13rem;
+    padding: 5px 10px;
+}
+.button{
+    color: blue;
+    padding: 5px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px;
+    border-radius: 10px; ;
+}
+.button:hover{
+    /* background-color: rgba(17, 84, 142, 0.774); */
+     color: white;
+     background-color: rgba(17, 84, 142, 0.774);
+}
+
+
+@media (max-width:868px) {
+    .header{
+        padding: 1rem;
+    }
+    .input{
+        width: 10rem;
+    }
+    .button{
+        padding: 5px;
+    }
+}
+@media (max-width:875px) {
+    .bi-list{
+        display: block;
+        font-weight: bold;
+        justify-content: flex-end;
+    }
+    .header{
+        padding: 2rem;
+        justify-content: space-between;
+        column-gap: 2rem;
+        align-items: center;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .content{
+        display: none;  
+    }
+    #navbar ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .dropdown{
+        margin: 0px;
+    }
+    .menu{
+        /* justify-content: flex-start; */
+    }
+    #navbar{
+        /* justify-content: flex-start; */
+    }
+    input{
+        clear: both;
+    }
+    .button{
+        padding:4px 10px;
+    }
+}
+@media (max-width:360px) {
+    .button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
